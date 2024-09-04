@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Honsh\\Shooter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|c:\\users\\honsh\\shooter\\assets\\2d galaxy assets\\game\\scrips\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FEC6DC-F79B-B98E-4C85-31DA3C9D3FFE}|Assembly-CSharp.csproj|solutionrelative:assets\\2d galaxy assets\\game\\scrips\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Honsh\\Shooter\\Assets\\2D Galaxy Assets\\Game\\Scrips\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\2D Galaxy Assets\\Game\\Scrips\\Player.cs",
+              "ToolTip": "C:\\Users\\Honsh\\Shooter\\Assets\\2D Galaxy Assets\\Game\\Scrips\\Player.cs",
+              "RelativeToolTip": "Assets\\2D Galaxy Assets\\Game\\Scrips\\Player.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwDQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T00:56:30.07Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
