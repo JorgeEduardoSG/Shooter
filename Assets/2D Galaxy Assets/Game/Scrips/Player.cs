@@ -10,13 +10,20 @@ public class NewBehaviourScript : MonoBehaviour
     //El nombre de la variable
     //de forma opcional se puede agregar un valor inicial
     // Start is called before the first frame update
+    public GameObject LaserPrefab;
+
+    //Aqui estara el condicional de cada cuando se crearan los laseres cuando se presiona el boton
+    //basicamente es el tiempo de refresco
+    //cooldown
+
+
     [SerializeField]
     private float speed = 5.0f;
     
     private void Start()
     {
         Debug.Log(transform.position);
-        transform.position = new Vector3(-3, 0, 0);
+        transform.position = new Vector3(0, 0, 0);
         
     }
 
@@ -24,6 +31,15 @@ public class NewBehaviourScript : MonoBehaviour
     private void Update()
     {
         Movimiento();
+
+        //hacer if que obtenga la entrada de la barra espaciadora
+        //y hacer que cree un laser desde la posicion del jugador o nave
+        if(Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButton(0)) //obtenemos el true cuando se presiona espacio
+        {
+            //aqui hacemos el laser
+            Instantiate(LaserPrefab, transform.position + new Vector3(0, 0.99f, 0), Quaternion.identity);
+        }
+               
     }
     private void Movimiento()
     {
